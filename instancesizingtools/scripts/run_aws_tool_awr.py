@@ -7,8 +7,9 @@ import time
 
 total = len(sys.argv)
 script_name = str(sys.argv[0])
-if total != 2:
-   print ('Script usage: python ', script_name, ' dblist_filename > logfile/log_filename 2>&1')
+
+if total!= 2:
+   print ('Script usage: python ', script_name,'dblist_filename > logfile/log_filename 2>&1')
    exit ()
 str(sys.argv[1])
  
